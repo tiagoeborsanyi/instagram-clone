@@ -23,23 +23,26 @@
     padding: 1rem 2rem;
     display: grid;
     grid-template-rows: 6rem auto;
-    grid-template-columns: 2fr 6fr 3fr;
-    grid-template-areas: "navbar navbar navbar"
+    grid-template-columns: 3fr 7fr 3fr;
+    grid-template-areas: "logo navbar navbar"
                          "coll1 pcontent coll2";
+}
+
+.logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo > img {
+  width: 55%;
 }
 
 .navbar {
     grid-area: navbar;
 }
 
-.first-collumn {
-    grid-area: coll1;
-}
-
 .second-collumn {
     grid-area: coll2;
-}
-
-.content {
-    grid-area: pcontent;
 }

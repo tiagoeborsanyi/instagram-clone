@@ -1,0 +1,125 @@
+.first-collumn {
+    grid-area: coll1;
+    padding: 1rem;
+}
+
+.user-img {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-img_avatar {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.user-img_avatar-margin {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  border: 2.5px solid rgb(238, 20, 165);
+  border-radius: 100%;
+}
+.user-img_avatar-img {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  background-image: url('./images/img-perfil.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.user-img__title,
+.user-img__subtitle {
+  margin: 0;
+  padding: 0;
+}
+.user-img__title {
+  font-weight: 500;
+  margin: 0.6rem 0;
+}
+.user-img__subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-info {
+  height: auto;
+  width: 100%;
+  margin-top: 2.1rem;
+}
+.user-info__items {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-info__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-info__item > p {
+  margin: 0;
+  font-weight: 500;
+}
+.user-info__item > span {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-menu {
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+}
+.user-menu__items {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.user-menu__item {
+  height: 2.5rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+.user-menu__item-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-menu__item-link > span {
+  margin-right: 0.8rem;
+}
+.user-menu__item-link.selected,
+.user-menu__item-link:hover {
+  cursor: pointer;
+  color: rgba(238, 20, 165, 0.8);
+}
