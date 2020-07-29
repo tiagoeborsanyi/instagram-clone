@@ -42,7 +42,3 @@
 .navbar {
     grid-area: navbar;
 }
-
-.second-collumn {
-    grid-area: coll2;
-}
