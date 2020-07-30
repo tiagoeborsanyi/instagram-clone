@@ -1,3 +1,84 @@
 .second-collumn {
   grid-area: coll2;
+  padding: 1rem;
+}
+
+.profile-image {
+  height: 23rem;
+  width: 100%;
+  background-image: url('./images/man.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.profile-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.profile-items__title {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-item__title {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-item__title > p {
+  margin: 0;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.profile-item__title > span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-text {
+  margin: 2rem 0;
+}
+.profile-text > p {
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.profile-text > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.profile-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile-list__item {
+  margin: 1.2rem 0;
+}
+.profile-list__item > p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+.profile-list__item > span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
 }

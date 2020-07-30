@@ -38,7 +38,3 @@
 .logo > img {
   width: 55%;
 }
-
-.navbar {
-    grid-area: navbar;
-}

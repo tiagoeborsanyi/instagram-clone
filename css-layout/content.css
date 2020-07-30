@@ -15,7 +15,15 @@
 }
 .feed-title > h1,
 .featured-title > h1 {
+  margin: 0;
   font-weight: 400;
+}
+.featured-title > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.featured-title > a:hover {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .featured-items {
