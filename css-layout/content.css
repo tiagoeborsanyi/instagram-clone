@@ -68,6 +68,14 @@
   margin-top: 4rem;
   width: 100%;
 }
+.feed-title__icons > span {
+  font-size: 1.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 0.6rem;
+}
+.feed-title__icons .selected {
+  color: rgba(238, 20, 165, 0.8);
+}
 
 .feed-images {
   height: auto;
